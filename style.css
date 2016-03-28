@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 13px Helvetica, Arial; }
+form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 85%; }
+form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+form #button { color:#FFF; background: #2D9F0B; border: none; padding: 10px;  width: 9%; }
+div #message-display {float: left; width: 85%; }
+#messages { list-style-type: none; margin: 0; padding: 0; width: 85%; position: fixed; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }
+#notifyUser { position: fixed; bottom: 42px; width: 80%; }
+div #online { float:right; margin-right: 1%; margin-left: 1%; width: 13%;  text-align: center; }
+#chatters { list-style-type: none; margin: 0; padding: 0; }
+#chatters li { padding: 5px 10px; }
+#chatters li:nth-child(odd) { background: #C8C5E0; }
