@@ -9,12 +9,12 @@ Developed a chat application for any number of users with following functionalit
 ### How to Run
 
 Clone the repository and run the following command:
-'''
+```
 		npm install
 		node .
-'''
+```
 
-(Note: Redis must be installed to run this application.)
+(Note: Node.js, Redis must be installed to run this application.)
 
 Open a web browser and go to http://localhost:8080
 
